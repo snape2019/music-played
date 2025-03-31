@@ -1,7 +1,7 @@
 export default {
   async fetch(request) {
-    const API_KEY = '你的API_KEY';  // 替换成你的 Last.fm API Key
-    const LASTFM_USER = '你的 Last.fm 用户名';
+    const API_KEY = '46cbbf287a43483818d39392ec0ac6b7';  // 替换成你的 Last.fm API Key
+    const LASTFM_USER = 'lmlovekpop';
     const url = `https://ws.audioscrobbler.com/2.0/?method=user.getRecentTracks&user=${LASTFM_USER}&api_key=${API_KEY}&format=json`;
 
     try {
